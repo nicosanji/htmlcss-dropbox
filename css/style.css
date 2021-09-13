@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------TAG-----------*/
+/*-----------TAG-----------*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+} 
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+nav li img {
+    min-height: 20px;
+    vertical-align: middle;
+}
+
+nav ul li {
+    display: inline-block; 
+    padding: 0 10px;   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+  font-size: 77px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4, h5 {
+  font-size: 16px;
+}
+
+/*-----------LAYOUT-----------*/
+/*-----------LAYOUT-----------*/
+
+.container-large {
+    max-width: 1367px;
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    max-width: 1010px;
+    width: 100%;
+    margin: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col_"] {
+    float: left;
+}
+
+.col_1_9 {
+    width: calc(100% / 9);
+}
+
+.col_2_9 {
+    width: calc(100% / 9 * 2);
+}
+
+.col_3_9 {
+    width: calc(100% / 9 * 3);
+}
+
+.col_4_9 {
+    width: calc(100% / 9 * 4);
+}
+
+.col_5_9 {
+    width: calc(100% / 9 * 5);
+}
+
+.col_6_9 {
+    width: calc(100% / 9 * 6);
+}
+
+/*-----------UTILITIES-----------*/
+/*-----------UTILITIES-----------*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button-blue {
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 10px;
+}
+
+/*-----------CLASSES-----------*/
+/*-----------CLASSES-----------*/
+
+/*---NAV---*/
+
+.nav-sx {
+    float: left;
+}
+
+.nav-dx {
+    float: right;
+}
+
+
