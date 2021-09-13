@@ -12,30 +12,6 @@ body {
     font-size: 16px;
 } 
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-bottom: 1px solid black;
-    padding: 10px;
-}
-
-nav li img {
-    min-height: 20px;
-    vertical-align: middle;
-}
-
-nav ul li {
-    display: inline-block; 
-    padding: 0 10px;   
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
 h1 {
   font-size: 77px;
 }
@@ -52,6 +28,14 @@ h4, h5 {
   font-size: 16px;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*-----------LAYOUT-----------*/
 /*-----------LAYOUT-----------*/
 
@@ -65,6 +49,7 @@ h4, h5 {
     max-width: 1010px;
     width: 100%;
     margin: auto;
+    margin-top: 200px;
 }
 
 .row:after {
@@ -112,14 +97,39 @@ h4, h5 {
 
 .button-blue {
     color: white;
-    background-color: #0061FF;
+    background-color: #0061ff;
     padding: 5px 10px;
 }
 
 /*-----------CLASSES-----------*/
 /*-----------CLASSES-----------*/
 
-/*---NAV---*/
+/*---HEADER---*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    z-index: 99;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+nav li img {
+    min-height: 20px;
+    vertical-align: middle;
+}
+
+nav ul li {
+    display: inline-block; 
+    padding: 0 10px;   
+}
+
+nav ul li a {
+    color: black;
+}
 
 .nav-sx {
     float: left;
@@ -128,5 +138,92 @@ h4, h5 {
 .nav-dx {
     float: right;
 }
+
+.hero-bg {
+    background-color: #b4d0e7;
+    margin-top: 46px;
+}
+
+.hero-bg h1 {
+    padding-bottom: 20px;
+}
+
+.hero-bg p{
+    padding: 30px 0;
+}
+
+header .container-large {
+    transform: translateY(100px);
+}
+
+/*---MAIN---*/
+
+.row .col_3_9 {
+    padding: 10px;
+}
+
+.offer form {
+    padding: 40px 0 30px;
+}
+
+form label {
+    padding: 0 20px 0 5px;
+}
+
+.border {
+    border: 1px solid #a9a9a9;
+}
+
+.col-title {
+    text-align: center;
+    border-bottom: 1px solid #a9a9a9;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.col-text {
+    padding: 20px;
+}
+
+.col-text h4 {
+    padding: 10px 0;
+}
+
+.grey {
+    color: #a9a9a9;
+    padding-bottom: 20px;
+}
+
+.col-text li {
+    padding: 10px 0;
+}
+
+.col-text .button-blue {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.col-text p a {
+    color: #0061ff;
+}
+
+.col-text hr {
+    margin: 20px 0;
+    border: 1px solid #a9a9a9;
+    width: 20%;
+}
+
+.col-text h5 {
+    padding-bottom: 20px;
+}
+
+.fa-check {
+    color: #0061ff;
+} 
+
+
+
 
 
