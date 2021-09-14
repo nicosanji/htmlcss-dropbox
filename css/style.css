@@ -290,3 +290,22 @@ form label {
     margin-top: 20px;
 }
 
+.operations {
+    margin-top: 100px;
+}
+
+.operations .col_3_9{
+    padding-top: 80px;
+}
+
+.operations img {
+    max-width: 100%;
+}
+
+.operations h3 {
+    padding: 20px 0 40px;
+}
+
+.lol {
+    text-decoration: underline;
+} 
