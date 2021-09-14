@@ -12,6 +12,11 @@ body {
     font-size: 16px;
 } 
 
+footer {
+    background-color: black;
+    color: white;
+}
+
 h1 {
   font-size: 77px;
 }
@@ -194,10 +199,6 @@ nav ul li a {
 
 .hero-bg p{
     padding: 30px 0;
-}
-
-.hero-bg .button-blue {
-    width: 50%;
 }
 
 header .container-large {
@@ -449,4 +450,38 @@ form label {
     text-align: right;
 }
 
+footer .container {
+    padding: 80px 0 40px;
+}
 
+footer ul {
+    width: 20%;
+    float: left;
+}
+
+footer h5 {
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+footer hr {
+    width: 10%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+footer select {
+    color: #a9a9a9;
+    background-color: black;
+    border: none;
+    font-size: 12px;
+}
+
+.fa-globe-americas {
+    color: #a9a9a9;
+}
