@@ -215,6 +215,11 @@ form label {
 
 .col-text li {
     padding: 10px 0;
+    padding-left: 22px;
+}
+
+.col-text li i {
+    margin-left: -22px;
 }
 
 .col-text .button-blue {
