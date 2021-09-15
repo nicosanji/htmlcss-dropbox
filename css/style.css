@@ -178,6 +178,7 @@ nav ul li {
 
 nav ul li a {
     color: black;
+    display: inline-block;
 }
 
 .nav-sx {
@@ -345,10 +346,6 @@ form label {
     text-decoration: underline;
 }
 
-.box-title {
-    
-}
-
 .box-title h2{
     max-width: 57%;
 }
@@ -448,6 +445,15 @@ form label {
 .freq .col_3_9 {
     padding: 0 20px 0 0;
     text-align: right;
+}
+
+.freq p {
+    padding-top: 40px;
+    display: none;
+}
+
+.freq i:active{
+    color: #0061ff;
 }
 
 footer .container {
