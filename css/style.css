@@ -452,6 +452,10 @@ form label {
     display: none;
 }
 
+.freq i:active p {
+    display: block;
+}
+
 .freq i:active{
     color: #0061ff;
 }
