@@ -274,6 +274,11 @@ form label {
     padding: 10px 0;
 }
 
+.col-title:hover {
+    color: #0061ff;
+    font-weight: bold;
+}
+
 .col-text {
     padding: 15px;
 }
@@ -373,6 +378,13 @@ form label {
 
 .operations img {
     max-width: 100%;
+    transition: transform 0.2s linear;
+}
+
+.operations img:hover {
+    transform: scale(1.2);
+    border-top: 1px solid #0061ff;
+    margin-top: -1px;
 }
 
 .operations h3 {
@@ -408,6 +420,11 @@ form label {
     width: 50%;
     height: calc(30vw / 2);
     text-align: center;
+    transition: filter 0.5s linear;
+}
+
+.single-box:hover {
+    filter: invert(1);
 }
 
 .single-box img {
@@ -512,6 +529,11 @@ footer a {
     padding: 10px 0;
 }
 
+footer a:hover {
+    color: #0061ff;
+    font-weight: bold;
+}
+
 footer hr {
     width: 10%;
     color: white;
@@ -528,3 +550,25 @@ footer select {
 .fa-globe-americas {
     color: #a9a9a9;
 }
+
+.fa-globe-americas {
+    animation: world-around 2s linear infinite;
+} 
+
+@keyframes world-around {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
